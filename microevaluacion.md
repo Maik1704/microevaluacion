@@ -5,13 +5,13 @@
 # Evidencias
 1. Imagenes
 
-Imagen Nro1 - Codigos en CMD
+      Imagen Nro1 - Codigos en CMD
 ![image](https://github.com/user-attachments/assets/754028ee-11d7-474b-9202-cc9d98b753f9)
 
-Imagen Nro2 - Base de datos en MongoDB Compass
+      Imagen Nro2 - Base de datos en MongoDB Compass
 ![image](https://github.com/user-attachments/assets/ee7555af-5ccf-45ee-8a04-32688a51acbe)
 
-Imagen Nro3 - La parte de copiar todo el contenido en lugar de solo copiar la linea de codigo
+      Imagen Nro3 - La parte de copiar todo el contenido en lugar de solo copiar la linea de codigo
 ![image](https://github.com/user-attachments/assets/4ed507b5-7832-4f29-b4fb-eddd11a71c97)
 
 3. Observaciones
