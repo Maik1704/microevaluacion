@@ -1,12 +1,11 @@
 # CONFIGURACION DE ROUTERS CON SUBNETING
-
 ## SELECCION DE ROUTER
 Imagen del primer diseno
 ![image](https://github.com/user-attachments/assets/c6567998-c09a-4370-8eac-237e855d8152)
 ## 1. Configuracion de IP de cada Router
-
+Se debe Realizar el subneting de cada router con el 200.30.40.0
 ## 2. Configuracion de Router de Tarata
-### 2.1. Configuracion de la primera IP de Tarata hacia Cliza 
+### 2.1. Configuracion de la primera IP de Tarata hacia Cliza
  - Primero Se ingresa a CLI y se ingresa en modo privilegiado
 ```bash
 Enable
@@ -116,7 +115,7 @@ hostname Cliza
 ```
 ![image](https://github.com/user-attachments/assets/aca8632d-5778-480d-a72d-b73489f9449c)
 
- - Ahora se configura con interface para que el router tenga una ip con los demas router
+ - Ahora se configura con interface para que el router tenga una ip el router de Tarata
 ```bash
 interface GigabitEthernet0/0
 ```
@@ -135,7 +134,7 @@ exit
 ![image](https://github.com/user-attachments/assets/6a1b825b-b311-4536-86dd-9751414dbbb4)
 
 ### 3.2. Configuracion de la segunda IP de Cliza hacia el Switch
- - Ahora se configura con interface para que el router tenga una ip del router
+ - Ahora se configura con interface para que el router tenga una ip hacia el switch
 ```bash
 interface GigabitEthernet1/0
 ```
@@ -177,7 +176,7 @@ hostname Arani
 ```
 ![image](https://github.com/user-attachments/assets/ffa246e9-5ac9-49a6-9fe3-f68ec668bbfa)
 
- - Ahora se configura con interface para que el router tenga una ip del router
+ - Ahora se configura con interface para que el router tenga una ip con el router de Tarata
 ```bash
 interface GigabitEthernet0/0
 ```
@@ -196,7 +195,7 @@ exit
 ![image](https://github.com/user-attachments/assets/9c9d473c-0c41-4245-be1e-0cdc25dcd8fa)
 
 ### 4.2. Configuracion de la segunda IP de Cliza hacia el Switch
- - Ahora se configura con interface para que el router tenga una ip con los demas router
+ - Ahora se configura con interface para que el router tenga una ip hacia el Switch
 ```bash
 interface GigabitEthernet1/0
 ```
@@ -238,7 +237,7 @@ hostname Punata
 ```
 ![image](https://github.com/user-attachments/assets/d9ce041e-af03-4ca9-89f8-8da3f28af858)
 
- - Ahora se configura con interface para que el router tenga una ip del router
+ - Ahora se configura con interface para que el router tenga una ip con el router de Tarata
 ```bash
 interface GigabitEthernet0/0
 ```
@@ -257,7 +256,7 @@ exit
 ![image](https://github.com/user-attachments/assets/3469e42a-1794-4b34-8a52-5ba5470cc782)
 
 ### 5.2. Configuracion de la segunda IP de Cliza hacia el Switch
- - Ahora se configura con interface para que el router tenga una ip con los demas router
+ - Ahora se configura con interface para que el router tenga una ip hacia el Switch
 ```bash
 interface GigabitEthernet1/0
 ```
@@ -299,7 +298,7 @@ hostname ElPaso
 ```
 ![image](https://github.com/user-attachments/assets/ba19f8ac-8fc1-4b68-9840-cdbb8273af7a)
 
- - Ahora se configura con interface para que el router tenga una ip del router
+ - Ahora se configura con interface para que el router tenga una ip con el router de Tarata
 ```bash
 interface GigabitEthernet0/0
 ```
@@ -318,7 +317,7 @@ exit
 ![image](https://github.com/user-attachments/assets/3cbb7abd-6f44-4c92-ba83-343efd16a25e)
 
 ### 5.2. Configuracion de la segunda IP de ElPaso hacia el Switch
- - Ahora se configura con interface para que el router tenga una ip con los demas router
+ - Ahora se configura con interface para que el router tenga una ip hacia el Switch
 ```bash
 interface GigabitEthernet1/0
 ```
