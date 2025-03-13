@@ -346,3 +346,7 @@ write memory
 ### 6. Darle IP a las PCs
 Por ultimo ingresas a la PC en la parte de config y le asignas una IP con DHCP
 ![image](https://github.com/user-attachments/assets/e89de66c-37fc-484c-9ab1-5c4d16b32106)
+
+### 7. Asi quedaria el Cisco Final
+![image](https://github.com/user-attachments/assets/9508090a-ae44-44f9-ad18-f5723a7a4551)
+
